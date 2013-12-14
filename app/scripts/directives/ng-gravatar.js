@@ -7,7 +7,7 @@ angular.module('ngGravatarApp')
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
        scope.imgHash = attrs.hash;
-       scope.imgSize = attrs.size;
+       scope.imgSize = attrs.size || '300';
       }
     };
   });
