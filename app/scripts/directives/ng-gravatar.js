@@ -3,10 +3,10 @@
 angular.module('ngGravatarApp')
   .directive('ngGravatar', function () {
     return {
-      template: '<div></div>',
+      template: '<img src="http://gravatar.com/avatar/{{imgHash}}?s={{imgSize}}" alt="gravatarImg">',
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
-        element.text('this is the ngGravatar directive');
+       
       }
     };
   });
