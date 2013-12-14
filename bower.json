@@ -1,0 +1,15 @@
+{
+  "name": "ng-gravatar",
+  "version": "0.1.0",
+  "authors": [
+    "Josh Burns <joshyburnss@gmail.com>"
+  ],
+  "description": "angular directive for gravatar",
+  "main": "app/scripts/directives/ng-gravatar.js",
+  "keywords": [
+    "directive",
+    "gravatar",
+    "angular"
+  ],
+  "license": "MIT"
+}
