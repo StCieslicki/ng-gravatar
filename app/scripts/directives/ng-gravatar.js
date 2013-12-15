@@ -199,7 +199,7 @@ var md5 = function(str) {
   return temp.toLowerCase();
 }
 
-angular.module('ngGravatarApp')
+angular.module('ngGravatar')
   .directive('ngGravatar', function() {
     return {
       template: '<img src="http://gravatar.com/avatar/{{imgHash}}?s={{imgSize}}" alt="gravatarImg">',
