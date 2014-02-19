@@ -113,7 +113,7 @@ var md5 = function(str) {
     S43 = 15,
     S44 = 21;
 
-  str = this.utf8_encode(str);
+  str = encodeURI(str);
   x = ConvertToWordArray(str);
   a = 0x67452301;
   b = 0xEFCDAB89;
